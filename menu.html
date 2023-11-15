@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Restaurant Menu</title>
+    <style>
+        /* Define CSS styles for the menu */
+        body {
+            background-color: black; /* Set the background color to black for the entire page */
+        }
+
+        .menu-section {
+            padding: 10px;
+            text-align: center; /* Center-align all text within menu sections */
+            background-color: black; /* Set the background color to black for each section */
+            margin: 20px 0; /* Add some space between menu sections */
+            border-radius: 10px; /* Add rounded corners to the menu sections */
+        }
+
+        .menu-category {
+            font-weight: bold;
+            color: #fff; /* Change text color to white for better visibility on the black background */
+            text-align: center; /* Center-align the category headers */
+            font-size: 36px; /* Increase font size for category headings */
+            margin-top: 20px; /* Add some space above the category headings */
+        }
+
+        .menu-item {
+            margin: 10px 0;
+            text-align: center; /* Center-align each menu item */
+        }
+
+        .item-name {
+            font-weight: bold;
+            color: #e74c3c; /* Change item name color to a traditional Indian red */
+            font-size: 24px; /* Increase font size for item names */
+        }
+
+        .item-description {
+            color: #fff; /* Set the text color for item descriptions to white */
+            font-size: 18px; /* Increase font size for item descriptions */
+        }
+
+        .item-price {
+            font-weight: bold;
+            color: #e74c3c;
+            font-size: 20px; /* Increase font size for item prices */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-section">
+        <div class="menu-category">Starters</div>
+        <div class="menu-item">
+            <img src="samosa.jpg" alt="Samosa" width="150" height="100">
+            <div class="item-name">Samosa</div>
+            <div class="item-description">Crispy pastry filled with spiced potatoes and peas.</div>
+            <div class="item-price">₹40.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="pakora.jpg" alt="Pakora" width="150" height="100">
+            <div class="item-name">Pakora</div>
+            <div class="item-description">Assorted fritters made with chickpea flour and spices.</div>
+            <div class="item-price">₹35.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="aloo-tikki.jpg" alt="Aloo Tikki" width="150" height="100">
+            <div class="item-name">Aloo Tikki</div>
+            <div class="item-description">Fried potato patties served with chutney.</div>
+            <div class="item-price">₹45.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="chaat.jpg" alt="Chaat" width="150" height="100">
+            <div class="item-name">Chaat</div>
+            <div class="item-description">A delightful mix of crunchy snacks, potatoes, and tangy sauces.</div>
+            <div class="item-price">₹50.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="veg-spring-rolls.jpg" alt="Veg Spring Rolls" width="150" height="100">
+            <div class="item-name">Veg Spring Rolls</div>
+            <div class="item-description">Crispy rolls stuffed with mixed vegetables.</div>
+            <div class="item-price">₹55.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="paneer-tikka.jpg" alt="Paneer Tikka" width="150" height="100">
+            <div class="item-name">Paneer Tikka</div>
+            <div class="item-description">Marinated and grilled paneer cubes with spices.</div>
+            <div class="item-price">₹65.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="bhel-puri.jpg" alt="Bhel Puri" width="150" height="100">
+            <div class="item-name">Bhel Puri</div>
+            <div class="item-description">Puffed rice, veggies, and tangy tamarind sauce.</div>
+            <div class="item-price">₹40.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="chilli-paneer.jpg" alt="Chilli Paneer" width="150" height="100">
+            <div class="item-name">Chilli Paneer</div>
+            <div class="item-description">Stir-fried paneer in a spicy sauce with bell peppers.</div>
+            <div class="item-price">₹75.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="papdi-chaat.jpg" alt="Papdi Chaat" width="150" height="100">
+            <div class="item-name">Papdi Chaat</div>
+            <div class="item-description">Crispy fried dough wafers served with yogurt and chutney.</div>
+            <div class="item-price">₹45.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="onion-bhaji.jpg" alt="Onion Bhaji" width="150" height="100">
+            <div class="item-name">Onion Bhaji</div>
+            <div class="item-description">Deep-fried onion fritters with spices.</div>
+            <div class="item-price">₹40.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="dhokla.jpg" alt="Dhokla" width="150" height="100">
+            <div class="item-name">Dhokla</div>
+            <div class="item-description">Steamed, spongy cakes made from rice and chickpea flour.</div>
+            <div class="item-price">₹45.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="idli-sambar.jpg" alt="Idli Sambar" width="150" height="100">
+            <div class="item-name">Idli Sambar</div>
+            <div class="item-description">Soft and fluffy rice cakes with a flavorful lentil stew.</div>
+            <div class="item-price">₹50.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="tandoori-chicken.jpg" alt="Tandoori Chicken" width="150" height="100">
+            <div class="item-name">Tandoori Chicken</div>
+            <div class="item-description">Marinated chicken grilled in a tandoor.</div>
+            <div class="item-price">₹100.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="veg-manchurian.jpg" alt="Veg Manchurian" width="150" height="100">
+            <div class="item-name">Veg Manchurian</div>
+            <div class="item-description">Vegetable balls in a spicy and tangy sauce.</div>
+            <div class="item-price">₹80.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="tandoori-fish.jpg" alt="Tandoori Fish" width="150" height="100">
+            <div class="item-name">Tandoori Fish</div>
+            <div class="item-description">Fish marinated in Indian spices and grilled in a tandoor.</div>
+            <div class="item-price">₹110.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="pav-bhaji.jpg" alt="Pav Bhaji" width="150" height="100">
+            <div class="item-name">Pav Bhaji</div>
+            <div class="item-description">Mashed mixed vegetables in a spicy tomato gravy, served with bread rolls.</div>
+            <div class="item-price">₹60.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="fish-curry.jpg" alt="Fish Curry" width="150" height="100">
+            <div class="item-name">Fish Curry</div>
+            <div class="item-description">Fish cooked in a flavorful coconut and tamarind gravy.</div>
+            <div class="item-price">₹140.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="vegetable-biryani.jpg" alt="Vegetable Biryani" width="150" height="100">
+            <div class="item-name">Vegetable Biryani</div>
+            <div class="item-description">Fragrant rice cooked with mixed vegetables and aromatic spices.</div>
+            <div class="item-price">₹130.00</div>
+        </div>
+        <!-- Include 4 more starter items here -->
+    </div>
+
+    <div class="menu-section">
+        <div class="menu-category">Main Courses</div>
+        <div class="menu-item">
+            <img src="biryani.jpg" alt="Chicken Biryani" width="150" height="100">
+            <div class="item-name">Chicken Biryani</div>
+            <div class="item-description">Fragrant rice cooked with chicken, herbs, and spices.</div>
+            <div class="item-price">₹180.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="curry.jpg" alt="Vegetable Curry" width="150" height="100">
+            <div class="item-name">Vegetable Curry</div>
+            <div class="item-description">Mixed vegetables in a rich and flavorful curry sauce.</div>
+            <div class="item-price">₹150.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="butter-chicken.jpg" alt="Butter Chicken" width="150" height="100">
+            <div class="item-name">Butter Chicken</div>
+            <div class="item-description">Tender chicken in a creamy tomato-based sauce.</div>
+            <div class="item-price">₹200.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="palak-paneer.jpg" alt="Palak Paneer" width="150" height="100">
+            <div class="item-name">Palak Paneer</div>
+            <div class="item-description">Paneer in a spiced spinach and cream sauce.</div>
+            <div class="item-price">₹160.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="dal-makhani.jpg" alt="Dal Makhani" width="150" height="100">
+            <div class="item-name">Dal Makhani</div>
+            <div class="item-description">Black lentils and kidney beans in a rich tomato gravy.</div>
+            <div class="item-price">₹160.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="mutton-roghan-josh.jpg" alt="Mutton Roghan Josh" width="150" height="100">
+            <div class="item-name">Mutton Roghan Josh</div>
+            <div class="item-description">Mutton cooked in aromatic spices and yogurt.</div>
+            <div class="item-price">₹220.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="tandoori-roti.jpg" alt="Tandoori Roti" width="150" height="100">
+            <div class="item-name">Tandoori Roti</div>
+            <div class="item-description">Indian bread baked in a tandoor.</div>
+            <div class="item-price">₹15.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="naan.jpg" alt="Naan" width="150" height="100">
+            <div class="item-name">Naan</div>
+            <div class="item-description">Leavened bread baked in a tandoor.</div>
+            <div class="item-price">₹20.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="jeera-rice.jpg" alt="Jeera Rice" width="150" height="100">
+            <div class="item-name">Jeera Rice</div>
+            <div class="item-description">Basmati rice flavored with cumin seeds.</div>
+            <div class="item-price">₹60.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="butter-naan.jpg" alt="Butter Naan" width="150" height="100">
+            <div class="item-name">Butter Naan</div>
+            <div class="item-description">Leavened bread brushed with butter.</div>
+            <div class="item-price">₹25.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="kulcha.jpg" alt="Kulcha" width="150" height="100">
+            <div class="item-name">Kulcha</div>
+            <div class="item-description">Stuffed bread with a choice of fillings, served with chutney.</div>
+            <div class="item-price">₹30.00</div>
+        </div>
+                <div class="menu-item">
+            <img src="veg-biryani.jpg" alt="Veg Biryani" width="150" height="100">
+            <div class="item-name">Veg Biryani</div>
+            <div class="item-description">Fragrant rice cooked with mixed vegetables and aromatic spices.</div>
+            <div class="item-price">₹130.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="mutton-biryani.jpg" alt="Mutton Biryani" width="150" height="100">
+            <div class="item-name">Mutton Biryani</div>
+            <div class="item-description">Flavorful rice cooked with tender mutton and spices.</div>
+            <div class="item-price">₹220.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="chicken-curry.jpg" alt="Chicken Curry" width="150" height="100">
+            <div class="item-name">Chicken Curry</div>
+            <div class="item-description">Chicken cooked in a rich and aromatic curry sauce.</div>
+            <div class="item-price">₹190.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="roti.jpg" alt="Roti" width="150" height="100">
+            <div class="item-name">Roti</div>
+            <div class="item-description">Traditional Indian flatbread made from wheat flour.</div>
+            <div class="item-price">₹15.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="bhature.jpg" alt="Bhature" width="150" height="100">
+            <div class="item-name">Bhature</div>
+            <div class="item-description">Fried bread made from refined flour, typically served with chole (chickpea curry).</div>
+            <div class="item-price">₹30.00</div>
+        </div>
+        <!-- Include 2 more main course items here -->
+    </div>
+
+    <div class="menu-section">
+        <div class="menu-category">Desserts</div>
+        <div class="menu-item">
+            <img src="gulab-jamun.jpg" alt="Gulab Jamun" width="150" height="100">
+            <div class="item-name">Gulab Jamun</div>
+            <div class "item-description">Deep-fried milk dumplings soaked in sugar syrup.</div>
+            <div class="item-price">₹70.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="kheer.jpg" alt="Kheer" width="150" height="100">
+            <div class="item-name">Kheer</div>
+            <div class="item-description">Creamy rice pudding flavored with cardamom and garnished with almonds.</div>
+            <div class="item-price">₹80.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="rasgulla.jpg" alt="Rasgulla" width="150" height="100">
+            <div class="item-name">Rasgulla</div>
+            <div class="item-description">Spongy balls made of fresh paneer soaked in sugar syrup.</div>
+            <div class="item-price">₹60.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="jalebi.jpg" alt="Jalebi" width="150" height="100">
+            <div class="item-name">Jalebi</div>
+            <div class="item-description">Spiral-shaped fried sweet soaked in saffron-flavored syrup.</div>
+            <div class="item-price">₹50.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="ice-cream.jpg" alt="Ice Cream" width="150" height="100">
+            <div class="item-name">Ice Cream</div>
+            <div class="item-description">Variety of flavors served in scoops or with toppings.</div>
+            <div class="item-price">₹40.00</div>
+        </div>
+        <div class="menu-item">
+            <img src="rasmalai.jpg" alt="Rasmalai" width="150" height="100">
+            <div class="item-name">Rasmalai</div>
+            <div class="item-description">Soft cheese dumplings soaked in sweet, saffron-flavored milk.</div>
+            <div class="item-price">₹70.00</div>
+        </div>
+    </div>
+</body>
+</html>
